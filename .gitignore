@@ -1,0 +1,62 @@
+# Build directories
+cmake-build-*/
+bin/
+lib/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Qt
+*.autosave
+*.qm
+*.pro.user
+*.pro.user.*
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*_autogen/
+
+# C++ compiled files
+*.o
+*.obj
+*.so
+*.so.*
+*.dylib
+*.dll
+*.a
+*.lib
+*.exe
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Qt Creator
+*.user
+*.user.*
+
+# Compilation databases
+compile_commands.json
+
+# Testing
+Testing/
+CTestTestfile.cmake
+
+# Package files
+*.deb
+*.rpm
+*.dmg
+*.zip
+*.tar.gz
+
+# Logs
+*.log

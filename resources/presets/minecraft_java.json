@@ -1,0 +1,35 @@
+{
+  "game_id": "minecraft_java",
+  "display_name": "Minecraft: Java Edition",
+  "detection": {
+    "windows": [
+      "C:\\Users\\%USERNAME%\\AppData\\Roaming\\.minecraft"
+    ],
+    "linux": [
+      "~/.minecraft"
+    ],
+    "macos": [
+      "~/Library/Application Support/minecraft"
+    ]
+  },
+  "tracked_paths": [
+    "saves/",
+    "mods/",
+    "config/",
+    "resourcepacks/",
+    "shaderpacks/",
+    "servers.dat",
+    "options.txt"
+  ],
+  "ignore_patterns": [
+    "logs/",
+    "crash-reports/",
+    "*.log",
+    "*.log.gz",
+    "screenshots/",
+    "replay_recordings/",
+    "usercache.json",
+    "usernamecache.json"
+  ],
+  "large_file_warning_mb": 5000
+}

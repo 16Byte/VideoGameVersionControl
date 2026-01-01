@@ -1,0 +1,31 @@
+{
+  "game_id": "skyrim_se",
+  "display_name": "The Elder Scrolls V: Skyrim Special Edition",
+  "detection": {
+    "windows": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Skyrim Special Edition"
+    ],
+    "linux": [
+      "~/.steam/steam/steamapps/common/Skyrim Special Edition"
+    ],
+    "macos": [
+      "~/Library/Application Support/Steam/steamapps/common/Skyrim Special Edition"
+    ]
+  },
+  "tracked_paths": [
+    "Data/",
+    "*.ini",
+    "*.esp",
+    "*.esm",
+    "Saves/"
+  ],
+  "ignore_patterns": [
+    "*.log",
+    "*.bak",
+    "Logs/",
+    "Crashes/",
+    "*.dmp",
+    "SKSE/Plugins/*.log"
+  ],
+  "large_file_warning_mb": 10000
+}

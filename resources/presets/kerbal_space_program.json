@@ -1,0 +1,30 @@
+{
+  "game_id": "kerbal_space_program",
+  "display_name": "Kerbal Space Program",
+  "detection": {
+    "windows": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Kerbal Space Program"
+    ],
+    "linux": [
+      "~/.steam/steam/steamapps/common/Kerbal Space Program"
+    ],
+    "macos": [
+      "~/Library/Application Support/Steam/steamapps/common/Kerbal Space Program"
+    ]
+  },
+  "tracked_paths": [
+    "saves/",
+    "GameData/",
+    "Ships/",
+    "*.cfg"
+  ],
+  "ignore_patterns": [
+    "*.log",
+    "*.tmp",
+    "Logs/",
+    "Screenshots/",
+    "PluginData/",
+    "*.DMP"
+  ],
+  "large_file_warning_mb": 3000
+}
